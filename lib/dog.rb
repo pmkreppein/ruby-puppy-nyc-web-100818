@@ -1,8 +1,10 @@
 class Dog
   @@all = Array.new
   
-  def initialize
+  attr_accessor :name
+  def initialize(name)
     @@all << self
+    @name = name
   end
   
   def self.all
