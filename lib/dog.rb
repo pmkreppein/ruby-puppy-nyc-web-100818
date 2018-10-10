@@ -9,7 +9,7 @@ class Dog
   end
   
   def self.all
-    @@all.map {|dog| dog.name}
+    @@all.select {|dog| dog.name}
   end
   
   def clear_all
