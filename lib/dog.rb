@@ -1,5 +1,5 @@
 class Dog
-  @@all = []
+  @@all = Array.new
   
   def initialize
     @@all << self
