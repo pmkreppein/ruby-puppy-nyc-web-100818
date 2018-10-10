@@ -9,6 +9,6 @@ class Dog
   end
   
   def self.all
-    @@all.
+    @@all.map {|dog| }
   end
 end
